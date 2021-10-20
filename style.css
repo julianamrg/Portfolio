@@ -95,6 +95,10 @@ p {
 
 .navbar {
     padding: 0;
+    background-color: #d46995;
+}
+.navbar .navbar.navbar-light.navbar-expand-lg.bg-light.fixed-top {
+    background-color: #d46995;
 }
 
 .navbar {
@@ -105,7 +109,6 @@ p {
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: blue;
 }
 
 .navbar ul {
@@ -115,6 +118,7 @@ p {
     list-style: none;
     align-items: center;
     color: #6e3b64;
+    background-color: #d46995;
 }
 
 .navbar li {
@@ -153,6 +157,13 @@ p {
 /**-------------------------------------------------------------------
 * Mobile Navigation ------------------------------------------------
 --------------------------------------------------------------------*/
+.offcanvas-body {
+    background-color: #d46995;
+}
+
+.offcanvas-header {
+    background-color: #d46995;
+}
 /*
 .mobile-nav-toggle {
     color: #fff;
